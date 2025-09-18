@@ -1,75 +1,89 @@
 <!DOCTYPE html>
-<html lang="fr">
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <title></title>
+      <meta name="description" content="">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="">
+   </head>
+   <body>
 
- <head>
-  <meta charset="UTF-8">
-  
-
-  <title>CV Monsieur Borie Marvin</title>
- </head>
- 
- <body>
-    <h1>Curriculum vitae</h1><br>
-
-    <header>
-
-   <section id="coordonnees"></section>
-
-    <h2>Borie Marvin</h2>
-    39 ans<br>
-    07 59 83 85 72<br>
-    41 rue des gloriettes 34420 VILLENEUVE LES BEZIERS<br>
-    boriemarvin@gmail.com<br>
-
-    </header>
-
-    <section id="competence"></section>
-
-    <h3>Compétence</h3>
-    <p>Adaptibilité, travail en equipe</p>
-
-   <section id="formation"></section>
-
-      <h3>Formation</h3>
-      <ul>
-         <li>2023-2024 : Prep full stack - OpenClassrooms</li>
-         <li>2002-2003 : CAP Menuiserie - CFA NANGIS</li>
-      </ul>
+   <form action="" method="get" name="formulaire">
       
-   <section id="experience"></section>
+      <fieldset>
+         <legend>Formulaire de contact</legend>
+         <label for="name">Nom</label>
+         <input type="text" name="name">
+         <label for="firstname">prenom</label>
+         <input type="text" name="firstname">
+         <label for="mail">email</label>
+         <input type="email" name="mail">
+      </fieldset>
+      <br />
 
-      <h3>Expérience</h3>
-      <ul>
-         <li>2024_2025 : Chauffeur livreur - ILS</li>
-         <li>2023-2024 : Trieur postier - LAPOSTE</li>
-         <li>2022-2023 : Chauffeur VTC - UBER</li>
-         <li>2021-2022 : Agent Exploitation - TRANSPORT BIAU</li>
-         <li>2017-2022 : Chauffeur Acoompagnateur - ADIATE</li>
-         <li>2016-2017 : Agent Polyvalent - MAIRIE</li>
-         <li>2012-2016 : Divers mission Interim - INTERIM</li>
-      </ul>
-      
-      <section id="langue"></section>
+      <fieldset>
+         <legend>Competences</legend>
 
-      <h3>Langue</h3>
-      <ul> 
-         <li>Anglais</li>
-         <li>Français</li>
-      </ul>
-      
-      <section id="centreinteret"></section>
-      
-      <h3>Centre d'intérêt</h3>
-      <p>Sport, lecture, jeux vidéo</p>
+         <input type="checkbox" name="Javascript">
+         <label for="Javascript">Javascript</label>
 
-      <section id="certificat"></section>
+         <input type="checkbox" name="PHP">
+         <label for="PHP">PHP</label>
 
-      <h3>Certificats et accréditations</h3>
-      <ul>
-         <li>2023 : Permis B</li>
-         <li>2022 : Permis VTC</li>
-      </ul>
-      
-    
- </body>
+         <input type="checkbox" name="C#">
+         <label for="C#">C#</label>
+
+         <input type="checkbox" name="Ruby">
+         <label for="Ruby">Ruby</label>
+
+         <input type="checkbox" name="React">
+         <label for="React">React</label>
+
+         <label for="Nodejs">Java</label>
+         <input type="checkbox" name="Nodejs">
+      </fieldset>
+      <br />
+      <fieldset>
+         <legend>Genre</legend>
+         <label for="homme">Homme</label>
+         <input type="radio" name="homme">
+
+         <label for="femme">Femme</label>
+         <input type="radio" name="femme">
+
+         <label for="autre">Autre</label>
+         <input type="radio" name="autre">
+      </fieldset>
+
+      <br />
+      <fieldset>
+         <legend>Message</legend>
+         <input type="text" name="message">
+      </fieldset>
+      <br />
+      <fieldset>
+         <legend>Poste</legend>
+         <select name="poste">
+            <option value="developpeur">Developpeur</option>
+            <option value="integrateur">integrateur</option>
+            <option value="concepteur">concepteur</option>
+         </select>
+      </fieldset>
+
+      <br />
+
+      <input type="submit" value="Envoyer">
+
+
+   </form>
+
+
+</body>
+
 </html>
