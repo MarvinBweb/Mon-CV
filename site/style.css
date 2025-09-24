@@ -1,0 +1,46 @@
+/* Reset de base */
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f9f9f9;
+  color: #222;
+  line-height: 1.6;
+  padding: 20px;
+
+}
+
+/* Conteneur principal */
+.cv {
+  background: #fff;
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Titres */
+h1 {
+  color: darkslategray;
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 10px;
+  border-bottom: 4px solid #bbb;
+}
+
+h2 {
+  color: cadetblue;
+  text-align: center;
+  font-size: 22px; 
+  margin-bottom: 20px;
+  border-bottom: 3px solid #ccc;
+}
+h3 {
+  color: steelblue;
+  font-size: 18px;
+  margin-top: 20px;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 5px;
+  
+}
