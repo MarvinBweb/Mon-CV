@@ -3,6 +3,4 @@
     @import "tailwindcss/components";
     @import "tailwindcss/utilities";
     /* Your custom styles here */
-    h1 {
-      color: blue;
-    }       
+    

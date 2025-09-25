@@ -1,103 +1,94 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]>      <html class="no-js"> <!-[endif]-->
 <html lang="fr">
-   <head>
-      <meta charset="utf-8">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <title>Mon CV</title>
-      <meta name="description" content="">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-      <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-      <link rel="stylesheet" href="css/style.css">
-      <script src="js/main.js" defer></script>
-   </head>
 
-   <body>
-    <div class="flex flex-col gap-2 p-8 sm:flex-row sm:items-center sm:gap-6 sm:py-4 ...">
-     <img class="mx-auto block h-24 rounded-full sm:mx-0 sm:shrink-0"
-     src="/" alt="photo" /> 
-      <div class="space-y-2 text-center sm:text-left">  
-          <div class="space-y-0.5">   
-               <p class="text-lg font-semibold text-black">Borie Marvin</p>   
-                  <p class="font-medium text-gray-500">Développeur</p>  
-                  </div>  
-                    <button class="border-purple-200 text-purple-600 hover:border-transparent hover:bg-purple-600 hover:text-white active:bg-purple-700 ...">      Message    </button> 
-                 </div>
-                </div>
-      
-      <h1 class="text-4xl font-bold underline">Mon CV</h1>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CV - Borie Marvin</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
 
-    <header>
+<body class="bg-gray-50 text-gray-800">
+  <!-- HEADER -->
+  <header class="bg-white shadow p-6 flex flex-col sm:flex-row sm:items-center sm:gap-6">
+    <img class="h-24 w-24 rounded-full mx-auto sm:mx-0" src="/Users/Beweb/Documents/beweb/Projets/moncvTailswind/image/photo.jpg" alt="Photo de profil">
+    <div class="text-center sm:text-left">
+      <h1 class="text-2xl font-bold">Borie Marvin</h1>
+      <p class="text-gray-600">Développeur</p>
+      <button
+        class="mt-3 px-4 py-2 border border-purple-500 text-purple-600 rounded-lg hover:bg-purple-600 hover:text-white transition">
+        Me contacter
+      </button>
+    </div>
+  </header>
 
-   <section id="coordonnees"></section>
+  <!-- COORDONNÉES -->
+  <section id="coordonnees" class="p-6">
+    <h2 class="text-xl font-semibold mb-2">Coordonnées</h2>
+    <p>39 ans</p>
+    <p>Rue Dujol</p>
+    <p>34500 Béziers</p>
+    <p><a href="mailto:bweb.borie.m@fondespierre.com" class="text-purple-600 hover:underline">
+        bweb.borie.m@fondespierre.com</a></p>
+  </section>
 
-    <h2>Borie Marvin</h2>
-    39 ans<br>
-    <br>
-    rue dujol<br> 
-    34500 BEZIERS<br>
-    bweb.borie.m@fondespierre.com<br>
+  <!-- COMPÉTENCES -->
+  <section id="competence" class="p-6 bg-gray-100">
+    <h2 class="text-xl font-semibold mb-2">Compétences</h2>
+    <p>Adaptabilité, travail en équipe</p>
+  </section>
 
-    </header>
+  <!-- FORMATION -->
+  <section id="formation" class="p-6">
+    <h2 class="text-xl font-semibold mb-2">Formation</h2>
+    <ul class="list-disc list-inside">
+      <li>2023-2024 : Prep full stack - OpenClassrooms</li>
+      <li>2002-2003 : CAP Menuiserie - CFA Nangis</li>
+    </ul>
+  </section>
 
-    <main>
-    <section id="competence"></section>
+  <!-- EXPÉRIENCES -->
+  <section id="experience" class="p-6 bg-gray-100">
+    <h2 class="text-xl font-semibold mb-2">Expérience</h2>
+    <ul class="list-disc list-inside">
+      <li>2024-2025 : Chauffeur livreur - ILS</li>
+      <li>2023-2024 : Trieur postier - La Poste</li>
+      <li>2022-2023 : Chauffeur VTC - Uber</li>
+      <li>2021-2022 : Agent Exploitation - Transport Biau</li>
+      <li>2017-2022 : Chauffeur accompagnateur - Adiate</li>
+      <li>2016-2017 : Agent polyvalent - Mairie</li>
+      <li>2012-2016 : Diverses missions intérim</li>
+    </ul>
+  </section>
 
-    <h3>Compétence</h3>
-    <p>Adaptibilité, travail en equipe</p>
+  <!-- LANGUES -->
+  <section id="langue" class="p-6">
+    <h2 class="text-xl font-semibold mb-2">Langues</h2>
+    <ul class="list-disc list-inside">
+      <li>Anglais</li>
+      <li>Français</li>
+    </ul>
+  </section>
 
-   <section id="formation"></section>
+  <!-- CENTRES D'INTÉRÊT -->
+  <section id="centreinteret" class="p-6 bg-gray-100">
+    <h2 class="text-xl font-semibold mb-2">Centres d’intérêt</h2>
+    <p>Sport, lecture, jeux vidéo</p>
+  </section>
 
-      <h3>Formation</h3>
-      <ul>
-         <li>2023-2024 : Prep full stack - OpenClassrooms</li>
-         <li>2002-2003 : CAP Menuiserie - CFA NANGIS</li>
-      </ul>
-      
-   <section id="experience"></section>
+  <!-- CERTIFICATS -->
+  <section id="certificat" class="p-6">
+    <h2 class="text-xl font-semibold mb-2">Certificats et accréditations</h2>
+    <ul class="list-disc list-inside">
+      <li>2023 : Permis B</li>
+      <li>2022 : Permis VTC</li>
+    </ul>
+  </section>
 
-      <h3>Expérience</h3>
-      <ul>
-         <li>2024_2025 : Chauffeur livreur - ILS</li>
-         <li>2023-2024 : Trieur postier - LAPOSTE</li>
-         <li>2022-2023 : Chauffeur VTC - UBER</li>
-         <li>2021-2022 : Agent Exploitation - TRANSPORT BIAU</li>
-         <li>2017-2022 : Chauffeur Acoompagnateur - ADIATE</li>
-         <li>2016-2017 : Agent Polyvalent - MAIRIE</li>
-         <li>2012-2016 : Divers mission Interim - INTERIM</li>
-      </ul>
-      
-      <section id="langue"></section>
-
-      <h3>Langue</h3>
-      <ul> 
-         <li>Anglais</li>
-         <li>Français</li>
-      </ul>
-      </main>
-
-      <footer>
-      
-      <section id="centreinteret"></section>
-      
-      <h3>Centre d'intérêt</h3>
-      <p>Sport, lecture, jeux vidéo</p>
-
-      <section id="certificat"></section>
-
-      <h3>Certificats et accréditations</h3>
-      <ul>
-         <li>2023 : Permis B</li>
-         <li>2022 : Permis VTC</li>
-      </ul>
-      </footer>
-      <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-
-    </script>
+  <!-- FOOTER -->
+  <footer class="text-center text-sm text-gray-500 py-4">
+    © 2025 - Borie Marvin
+  </footer>
 </body>
 
 </html>
